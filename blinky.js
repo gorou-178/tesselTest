@@ -6,5 +6,5 @@ var led2 = tessel.led[1].output(0);
 setInterval(function () {
     led1.toggle();
     led2.toggle();
-}, 100);
+}, 500);
 
